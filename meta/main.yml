@@ -1,7 +1,7 @@
 galaxy_info:g
-  author: your name
-  description: your role description
-  company: your company (optional)
+  author: ADITYABAMANE
+  description: role to install nginx
+  company: IBM
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -17,6 +17,9 @@ galaxy_info:g
   license: license (GPL-2.0-or-later, MIT, etc)
 
   min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+    - name: Centos
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
