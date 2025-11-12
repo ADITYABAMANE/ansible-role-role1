@@ -1,0 +1,10 @@
+---
+# tasks file for role1
+
+- name: role1 demo
+ansible.builtin.debug:
+msg: "role1"
+
+- name: role1 var1
+ansible.builtin.debug:
+var: var1
